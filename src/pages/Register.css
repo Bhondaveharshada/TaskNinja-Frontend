@@ -1,0 +1,16 @@
+
+.root {
+    --ion-color-gradient: linear-gradient(90deg, #d122cc 0%, #8e2de2 50%, #1a65eb 100%);
+
+}
+.title {
+ 
+  background:var(--ion-color-gradient);
+  color: var(--ion-color-primary-contrast);
+  border: none;
+  padding: 12px 24px;
+  border-radius: 4px;
+  font-size: 16px;
+
+  
+}

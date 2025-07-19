@@ -1,0 +1,125 @@
+/* EditProjectModal.css */
+
+.title-bar {
+    background: var(--ion-color-gradient);
+    color: var(--ion-color-primary-contrast);
+    border: none;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.custom-modal {
+  --width: 100%;
+  --max-width: 600px;
+  --height: auto;
+  --border-radius: 16px;
+  --box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.modal-header {
+  --background: linear-gradient(135deg, #6e8efb, #a777e3);
+  --color: white;
+  padding-top: 10px;
+}
+
+.modal-title {
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+.modal-content {
+  --padding-start: 20px;
+  --padding-end: 20px;
+  --padding-top: 20px;
+  --padding-bottom: 20px;
+}
+
+.form-container {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.form-item {
+  --background: transparent;
+  --padding-start: 0;
+  --inner-padding-end: 0;
+  margin-bottom: 20px;
+}
+
+.input-label {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #5a5a5a;
+  margin-bottom: 8px;
+}
+
+.required-star {
+  color: #ff4d4f;
+}
+
+.custom-input {
+  background: #f8f9fa;
+  border-radius: 8px;
+  --padding-start: 12px;
+  --padding-end: 12px;
+  --padding-top: 10px;
+  --padding-bottom: 10px;
+  margin-top: 5px;
+}
+
+.custom-textarea {
+  background: #f8f9fa;
+  border-radius: 8px;
+  --padding-start: 12px;
+  --padding-end: 12px;
+  margin-top: 5px;
+}
+
+.close-button {
+  --color: white;
+  --background-hover: rgba(255, 255, 255, 0.1);
+  --border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.save-button {
+  --background: white;
+  --color: #6e8efb;
+  --background-activated: rgba(255, 255, 255, 0.8);
+  --border-radius: 8px;
+  font-weight: 500;
+  padding: 0 16px;
+}
+
+.save-button[disabled] {
+  --background: #f0f0f0;
+  --color: #a0a0a0;
+}
+
+.custom-loading {
+  --spinner-color: #6e8efb;
+  --background: rgba(0, 0, 0, 0.4);
+  --backdrop-opacity: 0.6;
+}
+
+.custom-toast {
+  --background: #323232;
+  --color: white;
+  --border-radius: 8px;
+  --box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 576px) {
+  .custom-modal {
+    --border-radius: 16px 16px 0 0;
+    --height: 80vh;
+  }
+  
+  .form-container {
+    padding: 15px;
+  }
+}

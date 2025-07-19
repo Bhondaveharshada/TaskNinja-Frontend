@@ -1,0 +1,77 @@
+.title-bar {
+    background: var(--ion-color-gradient);
+    color: var(--ion-color-primary-contrast);
+    border: none;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* From Uiverse.io by alexreyes091 */ 
+.btn {
+  padding: 0.5rem 0.5rem;
+  font-weight: 700;
+  font-size: medium;
+  background: rgb(255, 255, 255);
+  color: blueviolet;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  border-bottom: 2px solid blueviolet;
+  border-right: 2px solid blueviolet;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  transition-duration: 1s;
+  transition-property: border-top, border-left, border-bottom, border-right,
+    box-shadow;
+}
+
+.btn:hover {
+  border-top: 2px solid blueviolet;
+  border-left: 2px solid blueviolet;
+  border-bottom: 2px solid rgb(238, 103, 238);
+  border-right: 2px solid rgb(238, 103, 238);
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px,
+    rgba(240, 46, 170, 0.2) 15px 15px;
+}
+
+/* From Uiverse.io by SalladShooter */ 
+.button-color {
+  cursor: pointer;
+  padding: 1em 2rem;
+  font-size: 1em;
+  font-weight: 700;
+  aspect-ratio: 1/0.25;
+  color: white;
+  background: #212121;
+  background-size: cover;
+  background-blend-mode: overlay;
+  border-radius: 0.5em;
+  outline: 0.1em solid #353535;
+  border: 0;
+  box-shadow: 0 0 1em 1em rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+  position: relative;
+}
+
+.button-color:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 1em 0.45em rgba(0, 0, 0, 0.1);
+  background: linear-gradient(45deg, #212121, #252525);
+  background: radial-gradient(
+    circle at bottom,
+    rgba(50, 100, 180, 0.5) 10%,
+    #212121 70%
+  );
+  outline: 0;
+}
+
+.icon {
+  fill: white;
+  width: 1em;
+  aspect-ratio: 1;
+  top: 0;
+  left: 0;
+  margin: auto;
+  transform: translate(-35%, 10%);
+}
+
